@@ -25,6 +25,7 @@ const MyPlugin: Plugin = {
   },
 }
 
+// Named export
 export { MyPlugin }
 
 // Export components for individual use

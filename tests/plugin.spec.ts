@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { createApp } from 'vue'
-import MyPlugin from '../src/index'
+import { MyPlugin } from '../src/index'
 
 describe('MyPlugin', () => {
   it('installs without errors', () => {
