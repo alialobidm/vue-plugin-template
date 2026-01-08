@@ -157,6 +157,37 @@ const { count, increment } = useMyPlugin()
 </script>
 ```
 
+## 📦 Publishing to npm
+
+Before publishing your plugin to npm, make sure you've:
+
+1. **Updated `package.json`** with your plugin details:
+   - Change `name` to your package name
+   - Update `version`, `description`, `author`, and `keywords`
+   - Set `repository` URL if applicable
+
+2. **Built your plugin**:
+   ```bash
+   npm run build
+   ```
+
+3. **Tested thoroughly**:
+   ```bash
+   npm test
+   ```
+
+4. **Log in to npm** (if not already logged in):
+   ```bash
+   npm login
+   ```
+
+5. **Publish to npm**:
+   ```bash
+   npm publish
+   ```
+
+> **Note:** The `prepublishOnly` script will automatically run the build before publishing.
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
