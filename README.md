@@ -188,6 +188,15 @@ Before publishing your plugin to npm, make sure you've:
 
 > **Note:** The `prepublishOnly` script will automatically run the build before publishing.
 
+## 🌟 Showcase Your Plugin
+
+After publishing your plugin, consider adding it to [vue-plugins.org](https://www.vue-plugins.org/) - a curated directory of Vue.js plugins and libraries. It's a great way to:
+
+- 📣 **Increase visibility** - Get your plugin discovered by the Vue community
+- 🎯 **Reach your audience** - Connect with developers looking for Vue plugins
+- 🏆 **Build credibility** - Be part of a trusted resource for Vue developers
+- 📊 **Track adoption** - See how your plugin is being used
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
